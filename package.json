@@ -1,0 +1,44 @@
+{
+  "name": "@composi/uuid",
+  "description": "Function to create an RFC4122 version 4 compliant uuid.",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "format": "prettier --no-semi --single-quote --write ./src/*.js",
+    "lint": "eslint --config ./.eslintrc.json src",
+    "prepare": "npm run format && npm run lint && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/composi/uuid.git"
+  },
+  "keywords": [
+    "composi",
+    "frontend",
+    "uuid"
+  ],
+  "author": "Robert Biggs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/composi/uuid/issues"
+  },
+  "homepage": "https://github.com/composi/uuid#readme",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^4.19.1",
+    "jest": "^23.6.0",
+    "prettier": "^1.13.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
