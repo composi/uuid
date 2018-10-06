@@ -15,6 +15,15 @@ To create a uuid:
 ```javascript
 const productId = uuid()
 ```
+### Without Hyphens
+Databases and source control solutions often expect uuids without hyphens. You can create a uuid without hyphens by passing in any truthy param. When you create a uuid wihtout hyphens, it will have 32 characters instead of 36:
+
+```javascript
+// Create uuids without hyphens:
+const id1 = uuid(true)
+const id2 = uuid(123)
+const id3 = uuid('whatever')
+```
 
 Assign unique ids to an array of products:
 
