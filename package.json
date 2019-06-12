@@ -1,7 +1,7 @@
 {
   "name": "@composi/uuid",
   "description": "Function to create an RFC4122 version 4 compliant uuid.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "src/index.js",
   "scripts": {
     "checkjs": "tsc --allowJs --checkJs --noEmit --moduleResolution node --target ES6 src/*.js",
@@ -34,9 +34,9 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.0",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^23.6.0",
+    "babel-jest": "^24.8.0",
     "eslint": "^4.19.1",
-    "jest": "^23.6.0",
+    "jest": "^24.8.0",
     "prettier": "^1.15.3",
     "typescript": "^3.0.3"
   },
